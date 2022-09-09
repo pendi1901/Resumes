@@ -1,0 +1,249 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    /* font-family: "Source Sans Pro" !important; */
+    font-family: 'EB Garamond', serif !important;
+    padding: 0;
+    margin: 0;
+}
+
+.sans{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+div{
+    font-size: 10.25pt;
+}
+
+.date{
+    /* font-family: 'Open Sans', sans-serif !important; */
+    font-style: italic;
+    font-size: 10.25pt;
+}
+
+#page {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+p,
+ul,
+li,
+table,
+th,
+td {
+    font-size: 10.25pt;
+    line-height: 1.25;
+}
+
+p {
+    font-size: 15px;
+}
+
+a {
+    color: #124ee8;
+}
+
+strong {
+    font-weight: 600 !important;
+}
+
+#header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 120px; */
+    margin-bottom: 5px;
+}
+
+#details{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    /* height: 120px; */
+    margin-top: -10px;
+}
+
+#details p{
+    font-size: 12px;
+}
+
+#name {
+    text-transform: uppercase;
+    font-weight: 700 !important;
+    font-size: 35pt;
+}
+
+.section {
+    width: 100%;
+    overflow: hidden;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+
+.iiitd-logo {
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 30px;
+    width: 100px;
+}
+
+.profile-pic {
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 30px;
+    width: 100px;
+}
+
+.section-title {
+    font-size: 10.75pt;
+    text-transform: uppercase;
+    width: 100%;
+    /* padding: 5px 5px 6px 0px !important; */
+    /* padding-bottom: 0px !important; */
+    padding-top: 2px !important;
+    padding-left: 3px !important;
+    margin-bottom: 2px !important;
+    border-bottom: 2px solid black;
+}
+
+.section-title h3 {
+    width: min-content;
+}
+
+#education .section-element {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#vol .section-element {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-element {
+    width: 98%;
+    margin: 3px auto;
+    display: flex;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.left p,
+.right p {
+    margin: 1px 0 !important;
+}
+
+.right p {
+    text-align: right;
+}
+
+#skill-grid {
+    width: 98%;
+    margin: 2px auto;
+    display: grid;
+    grid-template-columns: 155px auto;
+    gap: 4px;
+    font-size: 10pt;
+}
+
+.grid-row {
+    line-height: 1.25;
+    display: contents;
+}
+
+#work-experience .section-element,
+#projects .section-element {
+    flex-direction: column;
+    width: 98%;
+    margin: 5px auto;
+}
+
+#projects .section-element {
+    margin: 3px auto !important;
+}
+
+.heading {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    width: 98%;
+    margin: 0 auto;
+    list-style: disc;
+    list-style-position: inside;
+    text-indent: -20px;
+    margin-left: 22px;
+}
+
+ul li::marker {
+    font-size: 0.825em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#por-list {
+    text-indent: 0;
+    margin-left: 5px;
+}
+
+#por-grid {
+    width: 98%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 120px;
+    font-size: 10.5pt;
+}
+
+#por-grid li {
+    margin: 2px 0;
+}
+
+#por-grid .duration {
+    text-align: right;
+}
+
+#awards ul,
+#interests ul {
+    text-indent: -17px;
+    margin-left: 22px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}

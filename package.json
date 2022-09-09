@@ -1,0 +1,23 @@
+{
+  "name": "iiitd-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananyalohani/IIITD-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananyalohani/IIITD-Resume/issues"
+  },
+  "homepage": "https://github.com/ananyalohani/IIITD-Resume#readme",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "js-yaml": "^4.1.0"
+  }
+}

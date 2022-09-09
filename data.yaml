@@ -1,0 +1,154 @@
+# BIO
+bio:
+  name: Ritvik Pendyala
+  roll_number: 2020096
+  email: pendyala20096@iiitd.ac.in
+  github:
+    username: pendi1901
+    link: https://github.com/pendi1901
+  linkedin:
+    username: RitvikPendyala
+    link: https://www.linkedin.com/in/ritvik-pendyala-271425200/
+  dob: 19 Jan 2002
+  website:
+    name: RitvikPendyala
+    link: https://ritvikpendyala.vercel.app/
+  last_updated: 29 Aug 2022
+
+# EDUCATION
+education:
+  - institution: Indraprastha Institute of Information Technology, Delhi
+    degree: B.Tech. CSE
+    duration: 2020 - 2024 (Present)
+    grade: 'CGPA: 7.56*'
+    note: (Till 4th Semester)
+  - institution: Narayana Junior College Madhapur, Hyderabad
+    degree: Telangana State Board of Intermediate Education
+    duration: 2018  - 2020
+    grade: 'Percentage: 97.9%'
+  - institution: Narayana Junior College Madhapur, Hyderabad
+    degree: Central Board of Secondary Education
+    duration: 2017 - 2018
+    grade: 'CGPA: 10'
+
+# SKILLS
+skills:
+  - title: Expertise Area
+    value: Data Structures and Algorithms, Computer Organization, Object Oriented Programming(OOPS), Discrete Mathematics, Operating Systems, Advanced Programming in Java, Analysis and Design of Algorithms, Database Management Systems
+  - title: Programming Languages
+    value: 'Java, Python, C/C++, Javascript, MySQL, Dart'
+  - title: Tools and Technologies
+    value: Flutter, Git, ReactJS, NodeJS, Flask, GatsbyJS, HTML, CSS, Firebase, MySQL Workbench
+  - title: Technical Electives
+    value: Prototyping Interactive Systems (Design), Human-Computer Interaction (Design), Quantitative Biology (Bio)
+
+# WORK EXPERIENCE
+work_experience:
+  - title: Software Developer Intern | IIIT-D | Ongoing
+    subtitle: 'Mentor: <a href="">Prof. Mukesh Mohania, Dean IIRD</a>'
+    duration: May'22 - Present
+    tech_stack: HTML, CSS, ReactJS, NodeJS, Express, Pug and MySQL.
+    bullets:
+      - Developing and managing the In-house tools and interfaces for the management of data and information for further evaluation purposes.
+      - Developed the Research Portals for IIIT-D faculty where they could upload all their research work and grants they've conducted over time.
+      - Performance based metrics generated corresponding to the research work of the faculty.§
+  - title: Flutter Dev Intern | Auriga Innovative Labs LTD | AurigaCare
+    subtitle: 'Supervisor: Mr. Shubham'
+    duration: May’ 22 - Aug'22
+    tech_stack: Flutter and Firebase
+    bullets:
+      - Developed a Real time Healthcare consultation app for the rural parts of India.
+      - Features include a real time video calling feature(Implemented using Jitsi Meet)
+      - Devloped 3 apps interconnected with each other to provide a seamless experience to the user.
+      - Implemented a chat feature using Firebase Cloud Messaging to book appointments with doctors and labs.
+
+
+
+# PROJECTS
+projects:
+  - title: AIIMS Tuberculosis Detection Cross-Platform App | Ongoing
+    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/tavpritesh">Dr. TavPritesh Sethi</a>'
+    duration: Aug'22 - Present
+    team_size: 10
+    bullets:
+      - Developing a cross-platform app(Flutter) for the detection of Crohnsaid or Intestinal Tuberculosis using ML.
+      - Using a set of user inputs the app would predict the probability of the user having Crohnsaid or Intestinal Tuberculosis.
+    tech_stack: Flutter, Firebase, ML
+  - title: Online Retail Store
+    subtitle: 'Guide: <a href="">Prof. Mukesh Mohania</a>'
+    duration: May'22 - Present
+    team_size: 4
+    links:
+      - name: GitHub
+        link: https://github.com/pendi1901/ORS_Project-1
+    bullets:
+      - Working on a web-based application clone of a retail store with the front end made using HTML, CSS, JavaScript.
+      - The Backend being integrated with Flask and MYSQL.
+    tech_stack: HTML, CSS, JavaScript, Flask, MySQL
+  - title: The Will Hero Game
+    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/vivekk">Dr. Vivek Kumar</a>'
+    duration: Nov’21 - Dec'21
+    team_size: 2
+    links:
+      - name: GitHub
+        link: https://github.com/pendi1901/The_WillHeroGame_FX
+    tech_stack: Java, JavaFX, FXML, CSS, Gradle
+    bullets:
+      - Developed a clone of the popular Play Store app The Will Hero Game for desktop using object-oriented and event-driven programming.
+      - Utilised the Serializable Interface in Java to save games.
+#  - title: Assembler and Simulator
+#    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/sdeb">Prof. Sujay Deb</a>'
+#    duration: July’21 - Aug'21
+#    team_size: 3
+#    links:
+#      - name: GitHub
+#        link: https://github.com/alvinjoseph7/Computer-Org-Assgn
+#    tech_stack: Python
+#    bullets:
+#      - Generating Machine Code and performing quite a few basic mathematical operations.
+#      - Mimic the inner working of a Computer System especially the assembly code compiling .
+  - title: Portfolio Website
+    subtitle: Personal Project
+    duration: Dec'21 - Jan'22
+    team_size: 1
+    links:
+      - name: GitHub
+        link: https://github.com/pendi1901/The_WillHeroGame_FX
+    tech_stack: Java, JavaFX, FXML, CSS, Gradle
+    bullets:
+      - Developed a Website Portfolio for myself, a static website with a few functionalities
+  - title: Silver Arrow
+    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/richagupta">Prof. Richa Gupta</a>'
+    duration: Mar'22 - May'22
+    team_size: 4
+    links:
+      - name: GitHub
+        link: https://github.com/pendi1901/Voice-Control-RC-Car
+    tech_stack: C++,Arduino, Basic Electronics
+    bullets:
+      - Built a realtime formula one(F1) car(1:10) Car powered with really powerful DC motors and a wheelbase of 3.5 inches.
+      - Voice Controlled with a specific set of commands using Arduino and a Bluetooth module.
+      - Design inspiration - Mercedes F1 Car(W12)
+
+# POSITIONS OF RESPONSIBILITY
+leadership:
+  - position: '<strong>President</strong> of <strong>The 65th Square</strong>, the chess society of IIITD'
+    duration: May’ 22 - Present
+  - position: '<strong>Member </strong>of the <strong>Mobile Dev</strong> team of <strong>Google Developers Student Club</strong>(GDSC) .'
+    duration: Aug’ 22 - Present
+  - position: '<strong>Sports Council Member</strong>, organised events in IIITD with participation of 500+ students.'
+    duration: Aug’21 - Present
+  - position: '<strong>Volunteering Member</strong> of the <strong>Service Wing at Sathya Sai Centre</strong>, Nairobi, Kenya.'
+    duration: Jan’ 20 - Present
+
+# AWARDS AND ACHIEVEMENTS
+achievements:
+  - '<strong>JOINT 1st</strong> in <strong> African Continental Youth Chess Championship</strong> and many other honours and bestows. Awarded <strong>Fide Master(FM)</strong>  <a href="https://ratings.fide.com/profile/10800743">title</a> and hold a <strong>rating of 1492.</strong>'
+  - "<strong> 2nd Place </strong> in <strong> ROYAL Academy, London</strong> Essay Competition."
+  - "Hiked <strong>Mt.Kenya</strong> (5199m-2nd Tallest Mountain in Africa)."
+
+# INTERESTS AND HOBBIES
+interests:
+  - 'Playing Sports - <strong>Football, Chess and E-sports</strong>'
+  - 'Avid Supporter of <strong>Liverpool</strong> and <strong> Redbull Formula 1 Racing Team</strong>'
+  - '<strong>Photography</strong> and <strong>Design</strong>'
