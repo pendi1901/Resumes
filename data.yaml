@@ -45,15 +45,15 @@ skills:
 
 # WORK EXPERIENCE
 work_experience:
-  - title: Software Developer Intern | IIIT-D | Ongoing
+  - title: Software Developer Intern | IIIT-D 
     subtitle: 'Mentor: <a href="">Prof. Mukesh Mohania, Dean IIRD</a>'
-    duration: May'22 - Present
+    duration: May'22 - April'23
     tech_stack: HTML, CSS, ReactJS, NodeJS, Express, Pug and MySQL.
     bullets:
       - Developing and managing the In-house tools and interfaces for the management of data and information for evaluation purposes.
       - Developed the Research Portals for IIIT-D faculty where they could upload all their research work and grants they've conducted.
       - Performance based metrics generated corresponding to the research work of the faculty.
-  - title: Flutter Dev Intern | Auriga Innovative Labs LTD | AurigaCare
+  - title: Flutter Dev Intern | Auriga Innovative Labs LTD | AurigaCare | <a href="https://play.google.com/store/apps/details?id=com.aurigaCare.auriga_patient" >App Link</a>
     subtitle: 'Supervisor: Mr. Shubham'
     duration: May’ 22 - Aug'22
     tech_stack: Flutter and Firebase
