@@ -12,16 +12,16 @@ bio:
   dob: 19 Jan 2002
   website:
     name: RitvikPendyala
-    link: https://ritvikpendyala.vercel.app/
-  last_updated: 29 Aug 2022
+    link: https://www.pendi.works
+  last_updated: 07 Jul 2023
 
 # EDUCATION
 education:
   - institution: Indraprastha Institute of Information Technology, Delhi
     degree: B.Tech. CSE
     duration: 2020 - 2024 (Present)
-    grade: 'CGPA: 7.4*'
-    note: (Till 5th Semester)
+    grade: 'CGPA: 7.54*'
+    note: (Till 6th Semester)
   - institution: Narayana Junior College Madhapur, Hyderabad
     degree: Telangana State Board of Intermediate Education
     duration: 2018  - 2020
@@ -35,24 +35,32 @@ education:
 # SKILLS
 skills:
   - title: Expertise Area
-    value: Data Structures and Algorithms, Computer Organization, Object Oriented Programming(OOPS), Discrete Mathematics, Operating Systems, Advanced Programming in Java, Analysis and Design of Algorithms, Database Management Systems
+    value: Data Structures and Algorithms, Machine Learning, Computer Organization, Object Oriented Programming(OOPS), Discrete Mathematics, Operating Systems, Advanced Programming in Java, Analysis and Design of Algorithms, Database Management Systems
   - title: Programming Languages
-    value: 'Java, Python, C/C++, Javascript, MySQL, Dart'
+    value: 'Java, Python, Dart, C/C++, Javascript, MySQL'
   - title: Tools and Technologies
-    value: Flutter, Git, ReactJS, NodeJS, TypeScript, Prisma, Flask, GatsbyJS, HTML, CSS, Firebase, MySQL Workbench.
+    value: Flutter, Git, ReactJS, NodeJS, Prisma, Flask, GatsbyJS, Astro, HTML, CSS, Firebase, MySQL Workbench, TypeScript, Figma.
   - title: Technical Electives
     value: Prototyping Interactive Systems (Design), Human-Computer Interaction (Design), Quantitative Biology (Bio), Data Mining(ML)
 
 # WORK EXPERIENCE
 work_experience:
-  - title: Software Developer Intern | IIIT-D 
-    subtitle: 'Mentor: <a href="">Prof. Mukesh Mohania, Dean IIRD</a>'
-    duration: May'22 - April'23
-    tech_stack: HTML, CSS, ReactJS, NodeJS, Express, Pug and MySQL.
-    bullets:
-      - Developing and managing the In-house tools and interfaces for the management of data and information for evaluation purposes.
-      - Developed the Research Portals for IIIT-D faculty where they could upload all their research work and grants they've conducted.
-      - Performance based metrics generated corresponding to the research work of the faculty.
+  # - title: Software Developer Intern | IIIT-D 
+  #   subtitle: 'Mentor: <a href="">Prof. Mukesh Mohania, Dean IIRD</a>'
+  #   duration: May'22 - April'23
+  #   tech_stack: HTML, CSS, ReactJS, NodeJS, Express, Pug and MySQL.
+  #   bullets:
+  #     - Developing and managing the In-house tools and interfaces for the management of data and information for evaluation purposes.
+  #     - Developed the Research Portals for IIIT-D faculty where they could upload all their research work and grants they've conducted.
+  #     - Performance based metrics generated corresponding to the research work of the faculty.
+  - title: Softare Development Intern | Kalakumbh Arthub Pvt Ltd. | <a href ="https://drive.google.com/file/d/1zjhG0kaodtruz9hGukwAJbX02fCt5H4u/view?usp=sharing" target="_blank">Experience Letter</a>
+    subtitle: 'Supervisor: Ms. Tejaaswini Narendra'
+    duration: May’23 - July'23
+    tech_stack: Flutter, Firebase, NodeJS, Express, MySQL
+    bullets: 
+      - Developed a cross-platform application that is the MVP of the start-up. 
+      - Handled the entire development process from scratch, including the UI/UX design, backend development, and frontend development.
+      - The app is a social media platform for artists to showcase their work and connect with other artists.
   - title: Flutter Dev Intern | Auriga Innovative Labs LTD | AurigaCare | <a href="https://play.google.com/store/apps/details?id=com.aurigaCare.auriga_patient" >App Link</a>
     subtitle: 'Supervisor: Mr. Shubham'
     duration: May’ 22 - Aug'22
@@ -64,23 +72,52 @@ work_experience:
 
 # PROJECTS
 projects:
-  - title: AIIMS Tuberculosis Detection Cross-Platform App | Ongoing | Research Oriented
-    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/tavpritesh">Dr. TavPritesh Sethi</a>'
-    duration: Aug'22 - Present
-    team_size: 10
+  - title: AIIMS Tuberculosis Detection Cross-Platform App | Research Oriented
+    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/tavpritesh">Dr. TavPritesh Sethi</a>'
+    duration: Aug'22 - May'23
+    team_size: 4
     bullets:
       - Developing a cross-platform app(Flutter - ios and Android) for the detection of Crohnsaid or Intestinal Tuberculosis using ML.
       - Utilization of machine learning algorithms to analyze user inputs and predict the probability of the user having either condition Crohnsaid or Intestinal Tuberculosis.
     tech_stack: Flutter, Firebase, R
-  - title: Tamil NLP | Research Oriented
-    tech_stack: HTML, CSS, JavaScript, Flask, MySQL
-    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/rajivratn">Prof. Rajiv Ratn Shah</a>'
-    duration: Aug'22 - Dec'22
+  - title: Holocron OAuth | Development Oriented
+    tech_stack: Flutter, Typescript, MySQL
+    subtitle: 'Advisor: <a href="https://faculty.iiitd.ac.in/~arunb/">Prof. Arun Balaji</a>'
+    duration: Mar'23 - May'23
     team_size: 4
+    bullets:
+      - A new kind of SIM-based authentication lets the user access multiple services with just one click, making the login process faster and more convenient than ever before.
+      - Developed the Flutter Applications and the backend.
+    links: 
+      - name: Github
+        link: https://github.com/Holocron-Auth
+      - name: APKs 
+        link: https://holocron-auth.gjd.one/download-app
+      - name: Website 
+        link: https://holocron-auth.gjd.one/
+  - title: Forumula 1 Race Results Predictor | Research Oriented
+    tech_stack: Python, Flask, NextJS
+    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/anubha">Prof. Anubha Gupta</a>'
+    duration: Mar'23 - May'23
+    team_size: 3
     bullets: 
-      - Documented annotation guidelines for the translation and transliteration of Tamil, utilizing various sources.
-      - Utilized APIs to connect Sheets and performed data analysis on the translated sentences, calculating metrics such as the BLUE Score, Exact Match score, and others.
-      - Created a user-friendly interface for the Tamil NLP portal, incorporating features such as user state and hierarchy management,providing reviewers and annotators with the ability to view and download results in the specified ranges.
+      - An advanced Formula 1 Race Results Predictor has been developed using meticulous data collection and analysis. This exceptional tool accurately forecasts race outcomes by considering various variables and incorporating qualifying results.
+      - The predictor categorizes race results into three classes-> podium finishes, points finishes, and non-points finishes, providing valuable insights for every race on the calendar.
+    links:
+      - name: Github
+        link: https://github.com/JaideepGuntupalli/f1-predictor
+      - name: Website
+        link: https://f1-predictor.gjd.one/
+      
+  # - title: Tamil NLP | Research Oriented
+  #   tech_stack: HTML, CSS, JavaScript, Flask, MySQL
+  #   subtitle: 'Guide: <a href="https://www.iiitd.ac.in/rajivratn">Prof. Rajiv Ratn Shah</a>'
+  #   duration: Aug'22 - Dec'22
+  #   team_size: 4
+  #   bullets: 
+  #     - Documented annotation guidelines for the translation and transliteration of Tamil, utilizing various sources.
+  #     - Utilized APIs to connect Sheets and performed data analysis on the translated sentences, calculating metrics such as the BLUE Score, Exact Match score, and others.
+  #     - Created a user-friendly interface for the Tamil NLP portal, incorporating features such as user state and hierarchy management,providing reviewers and annotators with the ability to view and download results in the specified ranges.
   # - title: Online Retail Store
   #   subtitle: 'Guide: <a href="">Prof. Mukesh Mohania</a>'
   #   duration: March'22 - May'22
@@ -92,17 +129,17 @@ projects:
   #     - Created a web-based replica of a retail store, utilizing my proficiency in front-end technologies such as HTML, CSS, and JavaScript for a user-friendly interface. 
   #     - The backend was integrated using the Flask framework and a MYSQL database was employed for efficient data management.
   #   tech_stack: HTML, CSS, JavaScript, Flask, MySQL
-  - title: The Will Hero Game
-    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/vivekk">Dr. Vivek Kumar</a>'
-    duration: Nov’21 - Dec'21
-    team_size: 2
-    links:
-      - name: GitHub
-        link: https://github.com/pendi1901/The_WillHeroGame_FX
-    tech_stack: Java, JavaFX, FXML, CSS, Gradle
-    bullets:
-      - Developed a clone of the popular Play Store app <strong>The Will Hero Game</strong> using object-oriented and event-driven programming.
-      - Utilised the Serializable Interface in Java to save games.
+  # - title: The Will Hero Game
+  #   subtitle: 'Guide: <a href="https://www.iiitd.ac.in/vivekk">Dr. Vivek Kumar</a>'
+  #   duration: Nov’21 - Dec'21
+  #   team_size: 2
+  #   links:
+  #     - name: GitHub
+  #       link: https://github.com/pendi1901/The_WillHeroGame_FX
+  #   tech_stack: Java, JavaFX, FXML, CSS, Gradle
+  #   bullets:
+  #     - Developed a clone of the popular Play Store app <strong>The Will Hero Game</strong> using object-oriented and event-driven programming.
+  #     - Utilised the Serializable Interface in Java to save games.
 #  - title: Assembler and Simulator
 #    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/sdeb">Prof. Sujay Deb</a>'
 #    duration: July’21 - Aug'21
@@ -115,7 +152,7 @@ projects:
 #      - Generating Machine Code and performing quite a few basic mathematical operations.
 #      - Mimic the inner working of a Computer System especially the assembly code compiling .
   - title: Silver Arrow
-    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/richagupta">Prof. Richa Gupta</a>'
+    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/richagupta">Prof. Richa Gupta</a>'
     duration: Mar'22 - May'22
     team_size: 4
     links:
@@ -129,11 +166,11 @@ projects:
 
 # POSITIONS OF RESPONSIBILITY
 leadership:
-  - position: '<strong>President</strong> of <strong>The 65th Square</strong>, the chess society of IIITD'
+  - position: '<strong>The Coordinator</strong> of <strong>The 65th Square</strong>, the chess society of IIITD'
     duration: May’ 22 - Present
-  - position: '<strong>Member </strong>of the <strong>Mobile Dev</strong> team of <strong>Google Developers Student Club</strong>(GDSC) .'
+  - position: '<strong>Mobile Development Lead</strong> of the <strong>Google Developers Student Club</strong>(GDSC) .'
     duration: Aug’ 22 - Present
-  - position: '<strong>Sports Council Member</strong>, organised events in IIITD with participation of 500+ students.'
+  - position: '<strong>Sports Council Head for Chess</strong>, organised events in IIITD with participation of 500+ students.'
     duration: Aug’21 - Aug'22
   - position: '<strong>Volunteering Member</strong> of the <strong>Service Wing at Sathya Sai Centre</strong>, Nairobi, Kenya.'
     duration: Jan’ 20 - Present
