@@ -53,7 +53,7 @@ work_experience:
   #     - Developing and managing the In-house tools and interfaces for the management of data and information for evaluation purposes.
   #     - Developed the Research Portals for IIIT-D faculty where they could upload all their research work and grants they've conducted.
   #     - Performance based metrics generated corresponding to the research work of the faculty.
-  - title: Softare Development Intern | Kalakumbh Arthub Pvt Ltd. | <a href ="https://drive.google.com/file/d/1zjhG0kaodtruz9hGukwAJbX02fCt5H4u/view?usp=sharing" target="_blank">Experience Letter</a>
+  - title: Software Development Intern | Kalakumbh Arthub Pvt Ltd. | <a href ="https://drive.google.com/file/d/1zjhG0kaodtruz9hGukwAJbX02fCt5H4u/view?usp=sharing" target="_blank">Experience Letter</a>
     subtitle: 'Supervisor: Ms. Tejaaswini Narendra'
     duration: May’23 - July'23
     tech_stack: Flutter, Firebase, NodeJS, Express, MySQL
