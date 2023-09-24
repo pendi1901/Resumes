@@ -37,11 +37,11 @@ skills:
   - title: Expertise Area
     value: Data Structures and Algorithms, Machine Learning, Computer Organization, Object Oriented Programming(OOPS), Discrete Mathematics, Operating Systems, Advanced Programming in Java, Analysis and Design of Algorithms, Database Management Systems
   - title: Programming Languages
-    value: 'Java, Python, SQL, Dart, C/C++, Javascript'
+    value: 'Java, Python, Dart, C/C++, Javascript, SQL'
   - title: Tools and Technologies
-    value: Flutter, NextJS, NodeJS, MySQL, PostgreSQL, Prisma, Flask, Astro, MongoDB, Cassandra, HTML, Tailwind CSS, Firebase, Git, Github, Figma.
+    value: Flutter, NextJS, NodeJS, MySQL, PostgreSQL, Prisma, Flask, Astro, HTML, Tailwind CSS, Firebase, Git, Github, Figma.
   - title: Relevant Coursework 
-    value: Machine Learning, Databse Management Systems Usable Security, Computer Networks, MLOps, Data Mining, Operating Systems, Quantitative Biology
+    value: Machine Learning, Usable Security, Computer Networks, Databse Management Systems, MLOps, Data Mining, Operating Systems, Quantitative Biology
 
 # WORK EXPERIENCE
 work_experience:
@@ -56,7 +56,7 @@ work_experience:
   - title: Software Development Intern |  <a href="https://www.linkedin.com/company/kalakumbh/">Kalakumbh Arthub Pvt Ltd.</a> | <a href ="https://drive.google.com/file/d/1zjhG0kaodtruz9hGukwAJbX02fCt5H4u/view?usp=sharing" target="_blank">Experience Letter</a>
     subtitle: 'Supervisor: Ms. Tejaaswini Narendra'
     duration: May 2023 - Jul 2023
-    tech_stack: Flutter, Firebase, NoeJS, Express, MySQL
+    tech_stack: Flutter, Firebase, NodeJS, Express, MySQL
     # bullets: 
     #   - Developed a cross-platform application that is the MVP of the start-up. 
     #   - Handled the entire development process from scratch, including the UI/UX design, backend development, and frontend development.
@@ -70,7 +70,7 @@ work_experience:
       # - Engineered a lightning-fast onboarding and registration process, leading to over a 50% increase in user acquisition rates.
       # - Pioneered backend development, API creation, and UX/UI optimization, ensuring a seamless user registration experience as well as implemented cutting-edge websockets for real-time communication, enhancing user engagement and catapulting platform usage to over 1000 users within the inaugural month.
       - Introduced cutting-edge WebSockets for real-time communication, leading to a significant surge in user engagement and propelling platform usage to over 1,000 users within the inaugural month.
-      - Collaborated closely with back-end developers to pioneer backend development, API creation, database normalisation and UI/UX optimization, delivering a seamless user registration and onboarding experience.
+      - Collaborated closely with back-end developers to pioneer backend development, API creation, and UI/UX optimization, delivering a seamless user registration and onboarding experience.
       # - Responsibilities included collaborating on the Backend and the API, playing a vital role in the UX/UI enhancements and the cross-platform interface development.
       - Spearheaded development of a cross-platform application, resulting in a remarkable 25% reduction in time-to-market for the release.
   - title: Undergraduate Researcher | <a href="http://tavlab.iiitd.edu.in/index.html">TavLab IIITD</a> - <a href="https://www.iiitd.ac.in/tavpritesh">Dr. TavPritesh Sethi</a> | AIIMS Delhi
@@ -90,7 +90,7 @@ work_experience:
   #     - Developed a Real time Healthcare consultation app for the rural parts of India.
   #     - Features include a real time video calling feature(Implemented using Jitsi Meet) and chat functionality to book appointments.
   #     - Devloped 3 apps interconnected with each other to provide a seamless experience to the user.
- 
+
 # PROJECTS
 projects:
   # - title: AIIMS Tuberculosis Detection Cross-Platform App | Research Oriented

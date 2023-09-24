@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>IIITD Resume</title>
+  <title>Ritvik Pendyala's Resume</title>
   <link type="text/css" media="screen" rel="stylesheet" href="styles.css" />
   <link type="text/css" media="print" rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
@@ -19,28 +19,27 @@
 
 <body class="A4">
   <section class="sheet padding-10mm">
-    <img src="../images/ritvik.jpeg" class="profile-pic" />
-    <img src="../images/iiitd.png" class="iiitd-logo" />
-    <div id="page1">
+    <!-- <img src="images/jaideep.jpg" class="profile-pic" /> -->
+    <!-- <img src="images/iiitd.png" class="iiitd-logo" /> -->
+    <div id="page">
       <div id="header">
         <h1 id="name"></h1>
-        <p>
-          <span id="roll-number"></span> | <strong>Email:</strong>
-          <a id="email"></a>
-        </p>
-        <p>
-          <strong>GitHub:</strong>
-          <a id="github" target="_blank"></a> |
-          <strong>LinkedIn:</strong>
-          <a id="linkedin" target="_blank"></a>
-        </p>
-        <p>
-          <strong>DOB:</strong>
-          <span id="dob"></span>
-          |
-          <strong>Website:</strong>
-          <a id="website" target="_blank"></a>
-        </p>
+        <section id="details">
+          <p>
+            <strong>GitHub:</strong>
+            <a id="github" target="_blank"></a>
+          </p><p>
+            <strong>LinkedIn:</strong>
+            <a id="linkedin" target="_blank"></a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a id="email"></a>
+          </p><p>
+            <strong>Website:</strong>
+            <a id="website" target="_blank"></a>
+          </p>
+        </section>
       </div>
       <div id="education" class="section">
         <h3 class="section-title">Education</h3>
@@ -52,50 +51,29 @@
       <div id="work-experience" class="section">
         <h3 class="section-title">Work Experience</h3>
       </div>
-    </div>
-  </section>
-  <section class="sheet padding-10mm">
-    <div id="page2">
       <div id="projects" class="section">
         <h3 class="section-title">Projects</h3>
       </div>
-      <div id="por" class="section">
-        <h3 class="section-title">Positions of Responsibility</h3>
-        <div id="por-grid"></div>
+      <div id="vol" class="section">
+        <h3 class="section-title">Achievements</h3>
+        <div id="vol-grid"></div>
       </div>
-      <div id="awards" class="section">
-        <h3 class="section-title">Awards and Achievements</h3>
-        <ul id="awards-list"></ul>
-      </div>
-      <div id="interests" class="section">
-        <h3 class="section-title">Interests and Hobbies</h3>
-        <ul id="interests-list"></ul>
-      </div>
-      <div>
-        <p>
-          <strong>Declaration:</strong> The above information is correct to
-          the best of my knowledge.
-        </p>
-        <p id="signature"></p>
-        <p id="last-updated"></p>
-      </div>
+      <p id="last-updated"></p>
     </div>
+    
   </section>
 </body>
 <script type="text/javascript">
-  $.get('../iiitd-data.yaml', function (text) {
+  $.get('ml.yaml', function (text) {
     const data = jsyaml.load(text);
     console.log(data);
 
     const nameNode = document.getElementById('name');
     nameNode.innerHTML = data.bio.name;
 
-    const rollNumberNode = document.getElementById('roll-number');
-    rollNumberNode.innerHTML = data.bio.roll_number;
-
     const emailNode = document.getElementById('email');
-    emailNode.innerHTML = data.bio.email;
-    emailNode.href = `mailto:${data.bio.email}`;
+    emailNode.innerHTML = "ritvikpendyala19@gmail.com";
+    emailNode.href = `mailto:${"ritvikpendyala19@gmail.com"}`;
 
     const githubNode = document.getElementById('github');
     githubNode.innerHTML = `@${data.bio.github.username}`;
@@ -104,9 +82,6 @@
     const linkedinNode = document.getElementById('linkedin');
     linkedinNode.innerHTML = `@${data.bio.linkedin.username}`;
     linkedinNode.href = data.bio.linkedin.link;
-
-    const dobNode = document.getElementById('dob');
-    dobNode.innerHTML = data.bio.dob;
 
     const websiteNode = document.getElementById('website');
     websiteNode.innerHTML = data.bio.website.name;
@@ -122,13 +97,12 @@
                   ${item.institution}</strong
                 >
               </p>
-              <p>${item.degree}</p>
-              <p>${item.duration}</p>
+              <div>${item.degree}</div>
             </div>
             <div class="right">
               <p><strong>${item.grade.split(':')[0]}:</strong>${item.grade.split(':')[1]
-        }</p>
-              <p>${item.note ? item.note : ''}</p>
+      } ${item.note ? item.note : ''}</p>
+              <div class="date">${item.duration}</div>
             </div>
           </div>`;
     });
@@ -137,10 +111,12 @@
     const skillsNode = document.getElementById('skill-grid');
     let skillsHTML = '';
     data.skills.map((item) => {
-      skillsHTML += `<div class='grid-row'>
+      if(item.title !== "Expertise Area"){
+        skillsHTML += `<div class='grid-row'>
             <div class='grid-item'><strong>${item.title}</strong></div>
             <div class='grid-item'>${item.value}</div>
           </div>`;
+      } 
     });
     skillsNode.innerHTML = skillsHTML;
 
@@ -167,14 +143,12 @@
             <div class="heading">
               <div class="left">
                 <p><strong>${item.title}</strong>${workLinks}</p>
-                <p>${item.subtitle}</p>
               </div>
               <div class="right">
-                <p>${item.duration}</p>
+                <p class="date">${item.duration}</p>
               </div>
             </div>
             <ul>
-              ${ts}
               ${workBullets}
             </ul>
           </div>`;
@@ -183,74 +157,78 @@
 
     const projectNode = document.getElementById('projects');
     let projectHTML = '';
+    let noProjects = 0;
     data.projects.map((item) => {
-      let projectLinks = '';
-      if (item.links)
-        item.links.map((i) => {
-          projectLinks += ` | <a href='${i.link}'>${i.name.split(' ')[0]
-            }</a> ${i.name.split(' ')[1] ? i.name.split(' ')[1] : ''}`;
+      if(noProjects < 5){
+        let projectLinks = '';
+        if (item.links)
+          item.links.map((i) => {
+            projectLinks += ` | <a href='${i.link}'>${i.name.split(' ')[0]
+              }</a> ${i.name.split(' ')[1] ? i.name.split(' ')[1] : ''}`;
+          });
+  
+        let projectBullets = '';
+        item.bullets.map((i) => {
+          projectBullets += `<li>${i}</li>`;
         });
-
-      let projectBullets = '';
-      item.bullets.map((i) => {
-        projectBullets += `<li>${i}</li>`;
-      });
-
-      let ts = '';
-      if (item.tech_stack)
-        ts += `<li><strong class="underline">Tech Stack:</strong> ${item.tech_stack}</li>`;
-
-      projectHTML += `<div class="section-element">
-            <div class="heading">
-              <div class="left">
-                <p><strong>${item.title}</strong>${projectLinks} <em>${item.note ? item.note : ''
-        }</em></p>
-                <p>${item.subtitle}</p>
+  
+        let ts = '';
+        if (item.tech_stack)
+          ts += `<li><strong class="underline">Tech Stack:</strong> ${item.tech_stack}</li>`;
+  
+        projectHTML += `<div class="section-element">
+              <div class="heading">
+                <div class="left">
+                  <p><strong>${item.title}</strong>${projectLinks} <em>${item.note ? item.note : ''
+          }</em></p>
+                </div>
+                <div class="right">
+                  <p class="date">${item.duration}</p>
+                </div>
               </div>
-              <div class="right">
-                <p>${item.duration}</p>
-                <p>${item.team_size === 1
-          ? 'Individual'
-          : 'Team Size: ' + item.team_size
-        }</p>
-              </div>
-            </div>
-            <ul>
-              ${ts}
-              ${projectBullets}
-            </ul>
-          </div>`;
+              <ul>
+                ${projectBullets}
+              </ul>
+            </div>`;
+            noProjects ++;
+      }
     });
     projectNode.innerHTML += projectHTML;
 
-    const porNode = document.getElementById('por-grid');
-    let porHTML = '';
-    data.leadership.map((item) => {
-      porHTML += `
-          <div class='grid-row'>
-            <ul class='grid-item'><li>${item.position}</li></ul>
-            <span class='grid-item duration'>${item.duration}</span>
-          </div>
-        `;
-    });
-    porNode.innerHTML += porHTML;
-
-    const awardNode = document.getElementById('awards-list');
-    let awardHTML = '';
+    // const porNode = document.getElementById('por-grid');
+    // let porHTML = '';
+    // data.leadership.map((item) => {
+    //   porHTML += `
+    //       <div class='grid-row'>
+    //         <ul class='grid-item'><li>${item.position}</li></ul>
+    //         <span class='grid-item duration'>${item.duration}</span>
+    //       </div>
+    //     `;
+    // });
+    // porNode.innerHTML += porHTML;
+    const volunteerNode = document.getElementById('vol-grid');
+    let volHTML = '';
     data.achievements.map((item) => {
-      awardHTML += `<li>${item}</li>`;
-    });
-    awardNode.innerHTML += awardHTML;
+      volHTML += `<li>${item}</li>`;
+        })
+        volunteerNode.innerHTML += volHTML;
 
-    const interestsNode = document.getElementById('interests-list');
-    let interestsHTML = '';
-    data.interests.map((item) => {
-      interestsHTML += `<li>${item}</li>`;
-    });
-    interestsNode.innerHTML += interestsHTML;
+    // const awardNode = document.getElementById('awards-list');
+    // let awardHTML = '';
+    // data.achievements.map((item) => {
+    //   awardHTML += `<li>${item}</li>`;
+    // });
+    // awardNode.innerHTML += awardHTML;
 
-    const signatureNode = document.getElementById('signature');
-    signatureNode.innerHTML = data.bio.name;
+    // const interestsNode = document.getElementById('interests-list');
+    // let interestsHTML = '';
+    // data.interests.map((item) => {
+    //   interestsHTML += `<li>${item}</li>`;
+    // });
+    // interestsNode.innerHTML += interestsHTML;
+
+    // const signatureNode = document.getElementById('signature');
+    // signatureNode.innerHTML = data.bio.name;
 
     const dateNode = document.getElementById('last-updated');
     dateNode.innerHTML = `Date: ${data.bio.last_updated}`;
