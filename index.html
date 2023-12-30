@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Ritvik Pendyala's Resume</title>
+  <title>Thushar Resume</title>
   <link type="text/css" media="screen" rel="stylesheet" href="styles.css" />
   <link type="text/css" media="print" rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
@@ -36,8 +36,8 @@
             <strong>Email:</strong>
             <a id="email"></a>
           </p><p>
-            <strong>Website:</strong>
-            <a id="website" target="_blank"></a>
+            <!-- <strong>Website:</strong> -->
+            <!-- <a id="website" target="_blank"></a> -->
           </p>
         </section>
       </div>
@@ -72,8 +72,8 @@
     nameNode.innerHTML = data.bio.name;
 
     const emailNode = document.getElementById('email');
-    emailNode.innerHTML = "ritvikpendyala19@gmail.com";
-    emailNode.href = `mailto:${"ritvikpendyala19@gmail.com"}`;
+    emailNode.innerHTML = "vemulathusharreddy@gmail.com";
+    emailNode.href = `mailto:${"vemulathusharreddy@gmail.com"}`;
 
     const githubNode = document.getElementById('github');
     githubNode.innerHTML = `@${data.bio.github.username}`;
@@ -83,9 +83,9 @@
     linkedinNode.innerHTML = `@${data.bio.linkedin.username}`;
     linkedinNode.href = data.bio.linkedin.link;
 
-    const websiteNode = document.getElementById('website');
-    websiteNode.innerHTML = data.bio.website.name;
-    websiteNode.href = data.bio.website.link;
+    ///const websiteNode = document.getElementById('website');
+  //  websiteNode.innerHTML = data.bio.website.name;
+//    websiteNode.href = data.bio.website.link;
 
     const educationNode = document.getElementById('education');
     let eduHTML = '';
@@ -208,10 +208,17 @@
     // porNode.innerHTML += porHTML;
     const volunteerNode = document.getElementById('vol-grid');
     let volHTML = '';
-    data.achievements.map((item) => {
+    
+    data.achievements.heading.map((item) => {
       volHTML += `<li>${item}</li>`;
-        })
-        volunteerNode.innerHTML += volHTML;
+    })
+        // volunteerNode.innerHTML += volHTML;
+    
+    data.achievements.bullets.map((item) => {
+      volHTML += `<li class="achievement-tab">${item}</li>`;
+    })
+  
+    volunteerNode.innerHTML += volHTML;
 
     // const awardNode = document.getElementById('awards-list');
     // let awardHTML = '';
