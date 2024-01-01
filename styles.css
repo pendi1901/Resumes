@@ -14,13 +14,13 @@
 }
 
 div{
-    font-size: 10.75pt;
+    font-size: 10.25pt;
 }
 
 .date{
     /* font-family: 'Open Sans', sans-serif !important; */
     font-style: italic;
-    font-size: 10.75pt;
+    font-size: 10.25pt;
 }
 
 #page {
@@ -48,8 +48,8 @@ li,
 table,
 th,
 td {
-    font-size: 10.75pt;
-    line-height: 1.5;
+    font-size: 10.25pt;
+    line-height: 1.25;
 }
 
 p {
@@ -91,7 +91,7 @@ strong {
 #name {
     text-transform: uppercase;
     font-weight: 700 !important;
-    font-size: 30pt;
+    font-size: 35pt;
 }
 
 .section {
@@ -175,7 +175,7 @@ strong {
 }
 
 .grid-row {
-    line-height: 1.5;
+    line-height: 1.25;
     display: contents;
 }
 
@@ -183,7 +183,7 @@ strong {
 #projects .section-element {
     flex-direction: column;
     width: 98%;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 #projects .section-element {
@@ -240,11 +240,6 @@ ul li::marker {
 #interests ul {
     text-indent: -17px;
     margin-left: 22px;
-}
-
-.achievement-tab{
-    margin-left: 20px;
-    list-style: circle;
 }
 
 @media print {

@@ -1,72 +1,142 @@
 # BIO
 bio:
-  name: Vemula Thushar Reddy
-  roll_number: 2020262
-  email: vemula20262@iiitd.ac.in
+  name: Ritvik Pendyala
+  roll_number: 2020096
+  email: pendyala20096@iiitd.ac.in
   github:
-    username: vemula20262
-    link: https://github.com/vemula20262
+    username: pendi1901
+    link: https://github.com/pendi1901
   linkedin:
-    username: Vemula Thushar Reddy
-    link: https://www.linkedin.com/in/vemula-thushar-reddy-292467231/
-  dob: 13 Jun 2002
-  # website:
-  #   name: pendi.works
-  #   link: https://www.pendi.works
-  last_updated: <strong> 11 Dec 2023</strong
+    username: RitvikPendyala
+    link: https://www.linkedin.com/in/ritvik-pendyala-271425200/
+  dob: 19 Jan 2002
+  website:
+    name: pendi.works
+    link: https://www.pendi.works
+  last_updated: 15 Sep 2023
 
 # EDUCATION
 education:
   - institution: Indraprastha Institute of Information Technology, Delhi
-    degree: B.Tech. ESE
-    duration: Dec 2020 - Dec 2024 (Present)
-    grade: 'CGPA: 7.87*'
-    note: (Till 7th Semester)
+    degree: B.Tech. CSE
+    duration: Dec 2020 - May 2024 (Present)
+    grade: 'CGPA: 7.62*'
+    note: (Till 6th Semester)
   - institution: Narayana Junior College Madhapur, Hyderabad
     degree: Telangana State Board of Intermediate Education
     duration: 2018  - 2020
-    grade: 'Percentage: 92.7%'
-  - institution: Viswabharathi High School, Gudivada ,Andhra Pradesh
-    degree: State Board of Secondary Education
+    grade: 'Percentage: 97.9%'
+  - institution: Narayana, Hyderabad
+    degree: Central Board of Secondary Education
     duration: 2017 - 2018
-    grade: 'CGPA: 9.7'
+    grade: 'CGPA: 10'
 
 
 # SKILLS
 skills:
   - title: Expertise Area
-    value: Data Structures and Algorithms, Object Oriented Programming(OOPS), Database Management Systems
+    value: Data Structures and Algorithms, Machine Learning, Computer Networks, Computer Organization, Object Oriented Programming(OOPS), Discrete Mathematics, Operating Systems, Advanced Programming in Java, Analysis and Design of Algorithms, Database Management Systems
   - title: Programming Languages
-    value: 'Python, Java, SQL, MATLAB, R'
+    value: 'Java, Python, Dart, C/C++, Javascript, MySQL'
   - title: Tools and Technologies
-    value: Git, Github, MySQL Workbench, HTML, CSS, Matplotlib, Pandas, Numpy, OpenCV.
+    value: Flutter, Git, Github, NextJS, NodeJS, MySQL Workbench, Prisma, Flask, GatsbyJS, Astro, HTML, CSS, Firebase, Figma.
   - title: Technical Electives
-    value: Data Structures and Algorithms, Advanced Programming, Database Management And System, Computer Organisation, Convex Optimization, Human-Computer Interaction, Quantitative Biology, Robotics, Computer Architecture
+    value: Prototyping Interactive Systems, Usable Security, Human-Computer Interaction, Quantitative Biology, Data Mining, MLOps
 
 # WORK EXPERIENCE
 work_experience:
-  - title: Undergraduate Student Researcher 
-    subtitle: 'Guide: Dr. Tarini Shankar Ghosh <a href="https://iiitd.ac.in/tarini">Dr. Tarini Shankar Ghosh</a>'
-    duration: May 23 - present
-    team_size: 3
-    tech_stack: Python, R, linux 
+  # - title: Software Developer Intern | IIIT-D 
+  #   subtitle: 'Mentor: <a href="">Prof. Mukesh Mohania, Dean IIRD</a>'
+  #   duration: May'22 - April'23
+  #   tech_stack: HTML, CSS, ReactJS, NodeJS, Express, Pug and MySQL.
+  #   bullets:
+  #     - Developing and managing the In-house tools and interfaces for the management of data and information for evaluation purposes.
+  #     - Developed the Research Portals for IIIT-D faculty where they could upload all their research work and grants they've conducted.
+  #     - Performance based metrics generated corresponding to the research work of the faculty.
+  - title: Software Development Intern |  <a href="https://www.linkedin.com/company/kalakumbh/">Kalakumbh Arthub Pvt Ltd.</a> | <a href ="https://drive.google.com/file/d/1zjhG0kaodtruz9hGukwAJbX02fCt5H4u/view?usp=sharing" target="_blank">Experience Letter</a>
+    subtitle: 'Supervisor: Ms. Tejaaswini Narendra'
+    duration: May 2023 - Jul 2023
+    tech_stack: Flutter, Firebase, NodeJS, Express, MySQL
+    # bullets: 
+    #   - Developed a cross-platform application that is the MVP of the start-up. 
+    #   - Handled the entire development process from scratch, including the UI/UX design, backend development, and frontend development.
+    #   - The app is a social media platform for artists to showcase their work and connect with other artists.
     bullets:
-      - Conducted research on collected datasets and collected nearly 40k protein fasta files.
-      - Utilized dbCAN annotation tool to identify CAZy families in genomes and generated the CAZy matrix using HMMER. 
-      - Actively participated in research through careful data analysis and project management.
-
-  - title: Midas Research Associate 
-    subtitle: 'Guide: Rajiv Ratn Shah <a href="https://www.iiitd.ac.in/rajivratn">Dr. Rajiv Ratn Shah</a>'
-    duration: Aug 2022 - Dec 2023
+      # - Achieved a 25% reduction in time-to-market by optimizing the authentication and onboarding process for a diverse community of music industry professionals.
+      # - Launched a social media platform for artists, garnering 1000 users within the initial three months. Prioritized swift registration and streamlined onboarding.
+      # # - Collaboratively contributed to backend development, API creation, and played a pivotal role in UX/UI design, ensuring seamless registration, group and individual chats, and effective networking for artists. Leveraged websockets for real-time communication.
+      # - Drove the advancement of backend development, API creation, and UX/UI design, facilitating a seamless registration process, optimized group and individual chats, and efficient networking functionalities for artists. Leveraged websockets for real-time communication, resulting in heightened user experiences and increased platform usage.
+      - Transformed the existing application, prioritizing a complete UI/UX overhaul, resulting in a highly intuitive and engaging interface which resulted in a 50% increase in user acquisition rates.
+      # - Engineered a lightning-fast onboarding and registration process, leading to over a 50% increase in user acquisition rates.
+      # - Pioneered backend development, API creation, and UX/UI optimization, ensuring a seamless user registration experience as well as implemented cutting-edge websockets for real-time communication, enhancing user engagement and catapulting platform usage to over 1000 users within the inaugural month.
+      - Introduced cutting-edge WebSockets for real-time communication, leading to a significant surge in user engagement and propelling platform usage to over 1000 users within the inaugural month.
+      - Collaborated closely with back-end developers to pioneer backend development, API creation, and UI/UX optimization, delivering a seamless user registration and onboarding experience.
+      # - Responsibilities included collaborating on the Backend and the API, playing a vital role in the UX/UI enhancements and the cross-platform interface development.
+      - Solely spearheaded the development of a cross-platform application, resulting in a remarkable 25% reduction in time-to-market for the release.
+  - title: Undergraduate Researcher | <a href="http://tavlab.iiitd.edu.in/index.html">TavLab IIITD</a> | AIIMS Delhi
+    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/tavpritesh">Dr. TavPritesh Sethi</a>'
+    duration: Aug 2022 - May 2023
     team_size: 4
     bullets: 
-      - Engaged in the curation and development of datasets for the "IndicNLP" initiative in Telugu. 
-      - Conducted analysis of datasets, integrating valuable website enhancements, including features such as BLEU score, word cloud, word frequency, and IAA score.
-
+      - Developed a highly accurate Random-Forest model (92% sensitivity, 83% specificity) to differentiate Intestinal Tuberculosis (ITB) from Crohn's Disease (CD), outperforming other approaches.
+      - Established an optimal diagnostic cut-off point (86% accuracy) using 10-fold cross-validation and Youden index-measure optimization, showcasing the superiority of the random forest model over support vector machine methods.
+      - Integrated the model into a cross-platform user-friendly mobile application, ensuring widespread accessibility and revolutionizing the accuracy of ITB and CD diagnoses.
+  #   - wrouegblwj
+  # - title: Flutter Dev Intern | Auriga Innovative Labs LTD | AurigaCare | <a href="https://play.google.com/store/apps/details?id=com.aurigaCare.auriga_patient" >App Link</a>
+  #   subtitle: 'Supervisor: Mr. Shubham'
+  #   duration: May 2022 - Aug 2022
+  #   tech_stack: Flutter and Firebase
+  #   bullets:
+  #     - Developed a Real time Healthcare consultation app for the rural parts of India.
+  #     - Features include a real time video calling feature(Implemented using Jitsi Meet) and chat functionality to book appointments.
+  #     - Devloped 3 apps interconnected with each other to provide a seamless experience to the user.
 
 # PROJECTS
-projects: 
-
+projects:
+  # - title: AIIMS Tuberculosis Detection Cross-Platform App | Research Oriented
+  #   subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/tavpritesh">Dr. TavPritesh Sethi</a>'
+  #   duration: Aug 2022 - May 2023
+  #   team_size: 4
+  #   bullets:
+  #     - Developing a cross-platform app(Flutter - ios and Android) for the detection of Crohnsaid or Intestinal Tuberculosis using ML.
+  #     - Utilization of machine learning algorithms to analyze user inputs and predict the probability of the user having either condition Crohnsaid or Intestinal Tuberculosis.
+    # tech_stack: Flutter, Firebase, R
+  - title: Holocron OAuth | Development Oriented
+    tech_stack: Flutter, Typescript, MySQL
+    subtitle: 'Advisor: <a href="https://faculty.iiitd.ac.in/~arunb/">Prof. Arun Balaji</a>'
+    duration: Mar 2023 - May 2023
+    team_size: 4
+    bullets:
+      # - A new kind of SIM-based authentication lets the user access multiple services with just one click, making the login process faster and more convenient than ever before.
+      # - Developed the Flutter Applications and the backend.
+      - Developed a highly scalable OAuth2.0 Authorization server using  NextJS, Prisma, and MySQL and Flutter.
+      - Implemented OAuth2.0 Authorization Code Grant using tRPC and typescript for secure authentication and sign up which enables other apps and websites to enable "Login with Holocron". #combine with the first point and make it one
+      - Collaborated with a Web Developer to develop the website interface and ensured a seamless transition between the app and web interfaces. 
+    links: 
+      - name: Github
+        link: https://github.com/orgs/Holocron-Auth/repositories
+      - name: APKs 
+        link: https://holocron-auth.gjd.one/download-app
+      - name: Website 
+        link: https://holocron-auth.gjd.one/
+  - title: Forumula 1 Race Results Predictor | Research Oriented
+    tech_stack: Python, Flask, NextJS
+    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/anubha">Prof. Anubha Gupta</a>'
+    duration: Mar 2023 - May 2023
+    team_size: 3
+    bullets: 
+      # - An advanced Formula 1 Race Results Predictor has been developed using meticulous data collection and analysis. This exceptional tool accurately forecasts race outcomes by considering various variables and incorporating qualifying results.
+      # - Led data collection and exploratory analysis initiative, amalgamating diverse datasets from sources like the Ergast Data repository. Conducted in-depth exploratory data analysis, providing critical insights into circuit performance, driver demographics, and championship trends, thereby informing our modeling strategy.
+      # - The predictor categorizes race results into three classes-> podium finishes, points finishes, and non-points finishes, providing valuable insights for every race on the calendar.
+      - Retrieved all sorts of Formula 1 data, including race results, standings, weather conditions, and driver demographics, from APIs such as Ergast Data repository and web scraping for comprehensive data analysis.
+      - Engineered a predictive model using a combination of ML Frameworks, like Random forest and SVM classifiers resulting in a 90% accuracy using cross-validation score for predicting race outcomes based on qualifying results.
+      - Implemented feature engineering techniques to integrate new features like driver experience, home team advantage, DNF ratio resulting in a substantial boost in model accuracy from 60% to 94.5%.
+    links:
+      - name: Github
+        link: https://github.com/JaideepGuntupalli/f1-predictor
+      - name: Website
+        link: https://f1-predictor.gjd.one/
+      
   # - title: Tamil NLP | Research Oriented
   #   tech_stack: HTML, CSS, JavaScript, Flask, MySQL
   #   subtitle: 'Guide: <a href="https://www.iiitd.ac.in/rajivratn">Prof. Rajiv Ratn Shah</a>'
@@ -76,7 +146,6 @@ projects:
   #     - Documented annotation guidelines for the translation and transliteration of Tamil, utilizing various sources.
   #     - Utilized APIs to connect Sheets and performed data analysis on the translated sentences, calculating metrics such as the BLUE Score, Exact Match score, and others.
   #     - Created a user-friendly interface for the Tamil NLP portal, incorporating features such as user state and hierarchy management,providing reviewers and annotators with the ability to view and download results in the specified ranges.
-  
   # - title: Online Retail Store
   #   subtitle: 'Guide: <a href="">Prof. Mukesh Mohania</a>'
   #   duration: March'22 - May'22
@@ -88,8 +157,17 @@ projects:
   #     - Created a web-based replica of a retail store, utilizing my proficiency in front-end technologies such as HTML, CSS, and JavaScript for a user-friendly interface. 
   #     - The backend was integrated using the Flask framework and a MYSQL database was employed for efficient data management.
   #   tech_stack: HTML, CSS, JavaScript, Flask, MySQL
-
-
+  # - title: The Will Hero Game
+  #   subtitle: 'Guide: <a href="https://www.iiitd.ac.in/vivekk">Dr. Vivek Kumar</a>'
+  #   duration: Nov’21 - Dec'21
+  #   team_size: 2
+  #   links:
+  #     - name: GitHub
+  #       link: https://github.com/pendi1901/The_WillHeroGame_FX
+  #   tech_stack: Java, JavaFX, FXML, CSS, Gradle
+  #   bullets:
+  #     - Developed a clone of the popular Play Store app <strong>The Will Hero Game</strong> using object-oriented and event-driven programming.
+  #     - Utilised the Serializable Interface in Java to save games.
 #  - title: Assembler and Simulator
 #    subtitle: 'Guide: <a href="https://www.iiitd.ac.in/sdeb">Prof. Sujay Deb</a>'
 #    duration: July’21 - Aug'21
@@ -103,56 +181,40 @@ projects:
 #      - Mimic the inner working of a Computer System especially the assembly code compiling .
 
 
-  - title: Online Retail Store 
-    tech_stack: MySQL, Python
-    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/mukesh">Prof. Mukesh Mohania</a>'
-    duration: Jan 2023 - Apr 2023
-    team_size: 2
-    bullets:
-      - Developed a command line interface of a retail store with CRUD functionalities.
-      - Acheived a streamlined working CLI with Flask and MySQL for efficient data management.
-    links: 
-      - name: Github
-        link: https://github.com/vemula20262/ORS_DBMS_PROJECT
-  
-  - title: Path Following Robot 
-    tech_stack: Python
-    subtitle: 'Advisor: <a href="https://iiitd.ac.in/sayan">Prof. Sayan Basu Roy </a>'
-    duration: July 2023 - Dec 2023
+# include must and should for an ECE company 
+  - title: Silver Arrow
+    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/richagupta">Prof. Richa Gupta</a>'
+    duration: Mar 2022 - May 2022
     team_size: 4
-    bullets:
-      - Developed a Python simulation using Pygame for rendering.
-      - Implemented dynamic visibility map and following field for guiding a virtual robot through mazes.
-      - Enabled real-time route updates in response to obstacles and changing visible surroundings.
-    links: 
-      - name: Github
-        link: https://github.com/vemula20262/ORS_DBMS_PROJECT
-
-  - title: Cache cohherence protocols 
-    tech_stack: Python
-    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/sdeb">Prof. Sujay Deb </a>'
-    duration: July 2023 - Dec 2023
-    team_size: 4
-    bullets:
-      - Developed a multi-core cache coherence system simulation.
-      - Implemented and analyzed a cache coherence protocol to ensure data consistency.
-      - Assessed system behavior, optimizing for performance and scalability.
-    links: 
-      - name: Github
-        link: https://github.com/vemula20262/ORS_DBMS_PROJECT
-
-
-  - title: Snakes & Ladders 
-    tech_stack: JavaFX and Java
-    subtitle: 'Advisor: <a href="https://www.iiitd.ac.in/koteswar">Prof. Koteswar Rao Jerripothula</a>'
-    duration: Jan 2023 - Apr 2023
-    team_size: 2
-    bullets: 
-      - Developed an interface iteration of the popular Board Game - Snakes and Ladders using object-oriented and event-driven programming.
-      - Utilised the Serializable Interface for saving games progress.
     links:
-      - name: Github
-        link: https://github.com/vemula20262/Snake_and_Ladder_game      
+      - name: GitHub
+        link: https://github.com/pendi1901/Voice-Control-RC-Car
+    tech_stack: C++,Arduino, Basic Electronics
+    bullets:
+      # - Built a realtime formula one(F1) car(1:10) Car powered with really powerful DC motors and a wheelbase of 3.5 inches.
+      # - Voice Controlled with a specific set of commands using Arduino and a Bluetooth module.
+      # - Design inspiration - Mercedes F1 Car(W12)
+      # - Seeked design inspiration from the all time great F1 Mercedes-Benz W11 car, that is the chassis and the aerodynamics.
+      # - Coded a voice controlled RC car using Arduino that could detect object collisions and avoid them.
+      # - Assembled a 1:10 scale model of the car with a wheelbase of 3.5 inches and a 3D printed chassis, with two powerful 10V DC motors.  
+      - Derived design inspiration from the F1 Mercedes-Benz W11 car, conducting detailed analysis of the chassis and aerodynamics to replicate a scaled-down version.
+      # - Demonstrated advanced programming prowess by independently creating a voice-controlled RC car with Arduino. Implemented collision detection algorithms for autonomous obstacle navigation, showcasing technical expertise and problem-solving proficiency.
+      - Coded a voice-controlled RC car using Arduino, incorporating collision detection algorithms for autonomous obstacle navigation.
+      - Engineered and assembled a precise 1:10 scale model car featuring a custom 3D printed chassis and a 3.5-inch wheelbase, high-powered 10V DC motors to achieve high speed performance.
+       
+# # include for a product based role, product development engineer or to a startup
+#   - title: Huddl | Development Oriented
+#     subtitle: 'Advisors: <a href="https://www.iiitd.edu.in/~jalote/">Prof. Pankaj Jalote</a> & <a href="https://www.linkedin.com/in/priyansh-agarwal/?originalSubdomain=in">Priyansh Agarwal</a>'
+#     duration: Aug 2023 - Present
+#     team_size: 4
+#     tech_stack: NextJS, MySQL, Prisma, Typescript, TailwindCSS
+#     links:
+#       # - name: Github
+#       #   link:
+#       - name: Website
+#         link: https://beta.huddl.one/
+#     bullets: 
+#       - 
 
 
 # # include for an ML based role 
@@ -170,35 +232,26 @@ projects:
 
 # POSITIONS OF RESPONSIBILITY
 leadership:
-  - position:  'The Captain and the Coordinator of the college Volleyball Team.'
-    duration: Jun 2022 - Jun 2023
-  - position: 'Member of the Organizing Committee(OC) in Astra(IIITD’s sports fest).'
-    duration: Mar 2023 - Mar 2023
-  - position: 'Member of the Organizing Team in Odyssey(IIITD’s cultural fest)'
-    duration: Jan 2023 - Jan 2023
-  - position: Member of the MIDAS Lab(The Multimodial Digital Media Analysis Lab led by Rajiv Ratn Shah)
-    duration: Aug 2022 - Dec 2022
+  - position: '<strong>The Coordinator</strong> of <a href=""><strong>The 65th Square</strong></a>, the chess society of IIITD'
+    duration: May 2022 - Present
+  - position: '<strong>Mobile Development Lead</strong> of the <strong>Google Developers Student Club</strong>(GDSC) .'
+    duration: Aug 2022 - Aug 2023
+  - position: '<strong>Sports Council Head for Chess</strong>, organised events in IIITD with participation of 500+ students.'
+    duration: Aug 2021 - Aug 2022
+  - position: '<strong>Volunteering Member</strong> of the <a href="https://sathyasaicentrekenya.org/"><strong>Service Wing at Sathya Sai Centre</strong></a>, Nairobi, Kenya.'
+    duration: Jan 2020 - Present
 
 # AWARDS AND ACHIEVEMENTS
 achievements:
   # - I am honored to have achieved the distinction of being <strong>Joint 1st in the African Continental Youth Chess Championship</strong> and receiving numerous other accolades and honors. My accomplishments were recognized by the <strong>World Chess Federation (FIDE)</strong> with the prestigious title of <a href="https://ratings.fide.com/profile/10800743"><strong>Fide Master(FM)</strong></a> and a <strong>rating of 1492</strong>. 
-  heading:
-  - <strong> Captained </strong> the IIIT Delhi Volleyball team and making significant contributions to the Team’s performance in campus tournaments.
-  bullets: 
-  - Antaranga - IIITD’s inter-branch sports compettion (2022) 
-  - Astra - IIITD’s sports fest  (2023)
-  - Utkarsh - NSUT’s sports fest (2021)
-  - Rann-Neeti - IIT Mandi’s sports fest(2022)
-
-# achievements:
-#   # - I am honored to have achieved the distinction of being <strong>Joint 1st in the African Continental Youth Chess Championship</strong> and receiving numerous other accolades and honors. My accomplishments were recognized by the <strong>World Chess Federation (FIDE)</strong> with the prestigious title of <a href="https://ratings.fide.com/profile/10800743"><strong>Fide Master(FM)</strong></a> and a <strong>rating of 1492</strong>. 
-#   - Excelled in the highly competitive <strong>African Continental Youth Chess Championship</strong>, securing the title of <strong>Joint 1st</strong> place defeating formidable adversaries; honored with the prestigious <a href="https://ratings.fide.com/profile/10800743"><strong>Fide Master(FM)</strong></a> title and a rating of 1492.
-#   - Led comprehensive coding camps focused on Flutter and <a href="https://gdsc.community.dev/events/details/developer-student-clubs-indraprastha-institute-of-information-technology-delhi-presents-compose-camp-build-your-first-android-app-mini-hack/">Android Development</a>, drawing an attendance of over 300 participants.
-#   - Coordinated and facilitated the annual self-growth chess course at IIITD, attracting 200+ students. This 8-week program, in collaboration with The 65th Square, imparted foundational to intermediate-level chess skills to participants.
-#   # - "<strong> 2nd Place </strong> in <strong> ROYAL Academy, London</strong> Essay Competition."
-#   # - "Hiked <strong>Mt.Kenya</strong> (5199m-2nd Tallest Mountain in Africa)."
+  - Excelled in the highly competitive <strong>African Continental Youth Chess Championship</strong>, securing the title of <strong>Joint 1st</strong> place defeating formidable adversaries; honored with the prestigious <a href="https://ratings.fide.com/profile/10800743"><strong>Fide Master(FM)</strong></a> title and a rating of 1492.
+  - Led comprehensive coding camps focused on Flutter and <a href="https://gdsc.community.dev/events/details/developer-student-clubs-indraprastha-institute-of-information-technology-delhi-presents-compose-camp-build-your-first-android-app-mini-hack/">Android Development</a>, drawing an attendance of over 300 participants.
+  - Coordinated and facilitated the annual self-growth chess course at IIITD, attracting 200+ students. This 8-week program, in collaboration with The 65th Square, imparted foundational to intermediate-level chess skills to participants.
+  # - "<strong> 2nd Place </strong> in <strong> ROYAL Academy, London</strong> Essay Competition."
+  # - "Hiked <strong>Mt.Kenya</strong> (5199m-2nd Tallest Mountain in Africa)."
 
 # INTERESTS AND HOBBIES
 interests:
-  - 'Playing Sports - <strong>Volleyball, Badminton </strong>'
-  - 'Watching Movies and Travelling'
+  - 'Playing Sports - <strong>Football, Chess and E-sports</strong>'
+  - 'Avid Supporter of <strong>Liverpool</strong> and <strong> Redbull Formula 1 Racing Team</strong>'
+  - '<strong>Photography</strong> and <strong>Design</strong>'
